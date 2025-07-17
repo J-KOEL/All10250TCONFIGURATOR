@@ -97,6 +97,7 @@ product_configs = {
             "Lens": "MasterTestIncandescentLens.csv"
         }
     }
+}
     
 # Streamlit UI
 st.title("10250T Catalog Number Configurator")

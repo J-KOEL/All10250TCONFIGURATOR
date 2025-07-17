@@ -76,14 +76,14 @@ product_configs = {
         }
     },
     "PresTest Incandescent": {
-        "fields: ["Light Unit", "Lens"],
+        "fields": ["Light Unit", "Lens"],
         "files": {
             "Light Unit": "PresTestIncandescentLightUnit.csv",
             "Lens": "PresTestIncandescentLens.csv"
         }
     },
     "PrestTest LED": {
-        "fields: ["Light Unit", "Lens", "Voltage"],
+        "fields": ["Light Unit", "Lens", "Voltage"],
         "files": {    
             "Light Unit": "PresTestLEDLightUnit.csv",
             "Lens": "PresTestLEDLens.csv"
@@ -91,7 +91,7 @@ product_configs = {
         }
     },
     "Master Test Incandescent": {
-        "fields: ["Light Unit", "Lens"},
+        "fields": ["Light Unit", "Lens"],
         "files": {
             "Light Unit": "MasterTestIncandescentLightUnit.csv",
             "Lens": "MasterTestIncandescentLens.csv"

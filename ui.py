@@ -11,4 +11,9 @@ def render_product_selector():
         "Illuminated LED Pushpulls",
         "Illuminated Incandescent Pushbuttons",
         "Illuminated LED Pushbuttons"
+        "Standard Indicating Lights - Incandescent"
+        "Standard Indicating Lights - LED"
+        "PresTest Incandescent"
+        "PresTest LED"
+        "Master Test Incandescent"
     ])

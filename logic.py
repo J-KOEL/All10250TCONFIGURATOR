@@ -17,5 +17,11 @@ def build_catalog_number(product_type, selections):
     elif product_type == "Illuminated LED Pushbuttons":
         return f"10250T{selections['Light Unit']}{selections['Lens']}{selections['Voltage']}-{selections['Circuit']}"
     
+    elif product_type == "Standard Indicating Lights - LED":
+        return f"10250T{selections['Light Unit']}{selections['Lens']}{selections['Voltage']}"
+    
+    elif product_type == "Standard Indicating Lights - Incandescent":
+        return f"10250T{selections['Light Unit']}{selections['Lens']}"
+    
     else:
         return "Invalid product type"

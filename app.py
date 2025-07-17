@@ -75,18 +75,18 @@ product_configs = {
             "Lens": "StandardIndicatingIncandescentLens.csv"
         }
     },
-    "PresTest Incandescent": {
+     "PresTest Incandescent": {
         "fields": ["Light Unit", "Lens"],
         "files": {
             "Light Unit": "PresTestIncandescentLightUnit.csv",
             "Lens": "PresTestIncandescentLens.csv"
         }
     },
-    "PrestTest LED": {
+    "PresTest LED": {
         "fields": ["Light Unit", "Lens", "Voltage"],
-        "files": {    
+        "files": {
             "Light Unit": "PresTestLEDLightUnit.csv",
-            "Lens": "PresTestLEDLens.csv"
+            "Lens": "PresTestLEDLens.csv",
             "Voltage": "IndicatingLightLEDvoltage.csv"
         }
     },

@@ -22,6 +22,15 @@ def build_catalog_number(product_type, selections):
     
     elif product_type == "Standard Indicating Lights - Incandescent":
         return f"10250T{selections['Light Unit']}{selections['Lens']}"
+
+    elif product_type == "PresTest incandescent":
+        return f"10250T{selections['Light Unit']}{selections['Lens']}"
+
+    elif product_type == "Prestest LED":
+        return F"10250T{selections['Light Unit']}{slections['Lens']}{slections['Voltage']}"
+
+    elif product_type == "Master Test Incandescent":
+        return F'10250T{selections['Light Unit']}{selections['Lens']}"
     
     else:
         return "Invalid product type"

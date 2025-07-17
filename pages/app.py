@@ -87,7 +87,7 @@ product_configs = {
         "files": {
             "Light Unit": "PrestTestLEDLightunit.csv",
             "Lens": "PrestTestLEDLens.csv",
-            "Voltage": "IndicatinglightLEDvoltage 1.csv"
+            "Voltage": "IndicatinglightLEDvoltage.csv"
         }
     },
     "Master Test Incandescent": {

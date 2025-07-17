@@ -59,7 +59,23 @@ product_configs = {
             "Voltage": "IlluminatedPushbuttonLEDVoltage.csv",
             "Circuit": "Circuit.csv"
         }
+    },
+        "Standard Indicating Lights - LED": {
+        "fields": ["Light Unit", "Lens", "Voltage"],
+        "files": {
+            "Light Unit": "StandardindicatingLightLEDlightUnit.csv",
+            "Lens": "StandardIndicatingLightLEDLens.csv",
+            "Voltage": "IndicatinglightLEDvoltage.csv"
+        }
+    },
+    "Standard Indicating Lights - Incandescent": {
+        "fields": ["Light Unit", "Lens"],
+        "files": {
+            "Light Unit": "StandardIndicatingLightIncandescentLightUnit.csv",
+            "Lens": "StandardIndicatingIncandescentLens.csv"
+        }
     }
+
 }
 
 # Streamlit UI

@@ -60,7 +60,7 @@ product_configs = {
             "Circuit": "Circuit.csv"
         }
     },
-        "Standard Indicating Lights - LED": {
+    "Standard Indicating Lights - LED": {
         "fields": ["Light Unit", "Lens", "Voltage"],
         "files": {
             "Light Unit": "StandardindicatingLightLEDlightUnit.csv",
@@ -74,10 +74,30 @@ product_configs = {
             "Light Unit": "StandardIndicatingLightIncandescentLightUnit.csv",
             "Lens": "StandardIndicatingIncandescentLens.csv"
         }
+    },
+    "PresTest Incandescent": {
+        "fields: ["Light Unit", "Lens"],
+        "files": {
+            "Light Unit": "PresTestIncandescentLightUnit.csv",
+            "Lens": "PresTestIncandescentLens.csv"
+        }
+    },
+    "PrestTest LED": {
+        "fields: ["Light Unit", "Lens", "Voltage"],
+        "files": {    
+            "Light Unit": "PresTestLEDLightUnit.csv",
+            "Lens": "PresTestLEDLens.csv"
+            "Voltage": "IndicatingLightLEDvoltage.csv"
+        }
+    },
+    "Master Test Incandescent": {
+        "fields: ["Light Unit", "Lens"},
+        "files": {
+            "Light Unit": "MasterTestIncandescentLightUnit.csv",
+            "Lens": "MasterTestIncandescentLens.csv"
+        }
     }
-
-}
-
+    
 # Streamlit UI
 st.title("10250T Catalog Number Configurator")
 

@@ -74,7 +74,7 @@ product_configs = {
             "Light Unit": "StandardIndicatingLightIncandescentLightUnit.csv",
             "Lens": "StandardIndicatingIncandescentLens.csv"
         }
-    }
+    },
         "PresTest Incandescent": {
         "fields": ["Light Unit", "Lens"],
         "files": {

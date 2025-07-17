@@ -11,53 +11,53 @@ product_configs = {
     "Non-Illuminated Pushbuttons": {
         "fields": ["Operator", "Button Color", "Circuit"],
         "files": {
-            "Operator": "NonIlluminatedPushbuttonOperator 3.csv",
-            "Button Color": "NonIlluminatedPushbuttonButtonColor 3.csv",
-            "Circuit": "Circuit 8.csv"
+            "Operator": "NonIlluminatedPushbuttonOperator.csv",
+            "Button Color": "NonIlluminatedPushbuttonButtonColor.csv",
+            "Circuit": "Circuit.csv"
         }
     },
     "Non-Illuminated Pushpulls": {
         "fields": ["Operator", "Button", "Circuit"],
         "files": {
-            "Operator": "PushPullOperator 5.csv",
-            "Button": "NonIlluminatedPushPullButton 2.csv",
-            "Circuit": "Circuit 9.csv"
+            "Operator": "PushPullOperator.csv",
+            "Button": "NonIlluminatedPushPullButton.csv",
+            "Circuit": "Circuit.csv"
         }
     },
     "Illuminated Incandescent Pushpulls": {
         "fields": ["Operator", "Light Unit", "Lens", "Circuit"],
         "files": {
-            "Operator": "PushPullOperator 5.csv",
-            "Light Unit": "IlluminatedPushPullIncandescentLightUnit 2.csv",
-            "Lens": "IlluminatedPushPullIncandescentLens 2.csv",
-            "Circuit": "Circuit 10.csv"
+            "Operator": "PushPullOperator.csv",
+            "Light Unit": "IlluminatedPushPullIncandescentLightUnit.csv",
+            "Lens": "IlluminatedPushPullIncandescentLens.csv",
+            "Circuit": "Circuit.csv"
         }
     },
     "Illuminated LED Pushpulls": {
         "fields": ["Operator", "Light Unit", "Lens", "Voltage", "Circuit"],
         "files": {
-            "Operator": "PushPullOperator 5.csv",
-            "Light Unit": "IlluminatedPushPullLEDLightUnit 2.csv",
-            "Lens": "IlluminatedPushPullLEDlens 2.csv",
-            "Voltage": "IlluminatedPushPullLLEDVoltage 2.csv",
-            "Circuit": "Circuit 11.csv"
+            "Operator": "PushPullOperator.csv",
+            "Light Unit": "IlluminatedPushPullLEDLightUnit.csv",
+            "Lens": "IlluminatedPushPullLEDlens.csv",
+            "Voltage": "IlluminatedPushPullLLEDVoltage.csv",
+            "Circuit": "Circuit.csv"
         }
     },
     "Illuminated Incandescent Pushbuttons": {
         "fields": ["Light Unit", "Lens", "Circuit"],
         "files": {
-            "Light Unit": "IlluminatedPushbuttonIncandescentLightUnit 4.csv",
-            "Lens": "illuminatedPushbuttonIncandescentLensColor 4.csv",
-            "Circuit": "Circuit 12.csv"
+            "Light Unit": "IlluminatedPushbuttonIncandescentLightUnit.csv",
+            "Lens": "illuminatedPushbuttonIncandescentLensColor.csv",
+            "Circuit": "Circuit.csv"
         }
     },
     "Illuminated LED Pushbuttons": {
         "fields": ["Light Unit", "Lens", "Voltage", "Circuit"],
         "files": {
-            "Light Unit": "IlluminatedPushbuttonLEDLightUnit 6.csv",
-            "Lens": "IlluminatedPushbuttonLEDLensColor 6.csv",
-            "Voltage": "IlluminatedPushbuttonLEDVoltage 7.csv",
-            "Circuit": "Circuit 13.csv"
+            "Light Unit": "IlluminatedPushbuttonLEDLightUnit.csv",
+            "Lens": "IlluminatedPushbuttonLEDLensColor.csv",
+            "Voltage": "IlluminatedPushbuttonLEDVoltage.csv",
+            "Circuit": "Circuit.csv"
         }
     }
 }

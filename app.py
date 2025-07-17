@@ -75,7 +75,7 @@ product_configs = {
             "Lens": "StandardIndicatingIncandescentLens.csv"
         }
     },
-     "PresTest Incandescent": {
+    "PresTest Incandescent": {
         "fields": ["Light Unit", "Lens"],
         "files": {
             "Light Unit": "PresTestIncandescentLightUnit.csv",
@@ -98,7 +98,7 @@ product_configs = {
         }
     }
 }
-    
+
 # Streamlit UI
 st.title("10250T Catalog Number Configurator")
 
